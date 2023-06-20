@@ -1,0 +1,51 @@
+h2{
+    color: aqua;
+    text-decoration: overline;
+}
+p{
+    color: crimson;
+    font-style: oblique;
+    text-decoration: chartreuse;
+}
+.main-text{
+    color: burlywood;
+
+}
+/*Attribute Selector*/
+/*1.AT the end*/
+a[href$="png"] {
+    color: darkseagreen;
+}
+/*2.AT the start*/
+a[href^="Assets"] {
+    color: azure;
+}/*3.AT anywhere*/
+a[href*="icon"] {
+    color: deeppink;
+}
+
+input[type="text"]{
+    background-color: chocolate;
+}
+l1:nth-child(3){
+    color: cornflowerblue;
+}
+l1:first-child{
+    color: darkblue;
+}l1:last-child{
+    color: darkblue;
+}
+ l1:only-child {
+     color: red;
+ }
+ .sub p {
+     color: #7c4fff;
+ }
+ .box{
+     background-color: aqua;
+     width: 200px;
+     height: 200px;
+     border: 5px;
+     border-radius: 90%;
+ ;
+ }
